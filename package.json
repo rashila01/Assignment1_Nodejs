@@ -1,0 +1,27 @@
+{
+  "name": "assignment1_node-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rashila01/Assignment1_Nodejs.git"
+  },
+  "author": "Rashila Maharjan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rashila01/Assignment1_Nodejs/issues"
+  },
+  "homepage": "https://github.com/rashila01/Assignment1_Nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.15",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.6"
+  }
+}
