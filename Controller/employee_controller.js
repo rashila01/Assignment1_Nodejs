@@ -46,7 +46,7 @@ exports.update = async function(request, response){
     emp.employee_age = employee_age;
     emp.employee_salary = employee_salary;
     emp.profile_image = profile_image;
-    emp.save();
+    await emp.save();
     return response.status(200).json(emp);
     }
 }
